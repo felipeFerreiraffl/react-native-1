@@ -1,12 +1,11 @@
-// Necessário importação para usar os componentes
-import { Text, View, Image, StyleSheet, Platform } from 'react-native';
+import { View, Text, Image, StyleSheet, Platform } from "react-native";
 
 export default function App() {
   return (
-    // <View>: funciona como div no react-native
     <View style={tyler.container}>
-      <Text style={tyler.texto}>Omae Wa Mou Shindeiru</Text>
-      <Image style={tyler.imagem} source={require('./assets/omae.png')}/>
+      <Text style={tyler.texto}>BELLIGOL, BELLIGOL, BELLINGHAM!!!</Text>
+      <Image style={tyler.imagem} source={require("./assets/bell.png")}></Image>
+      <Text style={tyler.texto}>É ELE!!!</Text>
     </View>
   );
 }

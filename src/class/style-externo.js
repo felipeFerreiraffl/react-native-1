@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 
 export const tyler = StyleSheet.create({
     container: {
@@ -8,10 +8,10 @@ export const tyler = StyleSheet.create({
       alignItems: 'center',
       textAlign: 'center',
       justifyContent: 'center',
-      backgroundColor: 'white',
+      backgroundColor: Platform.OS === 'android' ? 'white' : 'grey',
     },
     texto: {
-      color: 'black',
+      color: Platform.OS === 'android' ? 'black' : 'darkblue',
       fontSize: 50,
       fontWeight: '900',
     },
