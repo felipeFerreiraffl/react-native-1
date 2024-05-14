@@ -17,7 +17,7 @@ export const tyler = StyleSheet.create({
     },
     imagem: {
       width: 200,
-      height: 200,
+      height: 300,
       marginTop: 20, 
     }
 })

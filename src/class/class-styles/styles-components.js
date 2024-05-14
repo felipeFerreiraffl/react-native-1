@@ -35,8 +35,6 @@ export const PageImage = styled.Image`
   height: 350px;
   margin-top: 30px;
   margin-bottom: 30px;
-  border: solid 5px gold;
+  border: 5px gold;
   border-radius: 50px;
 `;
-
-export const PageAudio = styled
