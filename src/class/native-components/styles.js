@@ -1,4 +1,3 @@
-import { FlatList, ImageBackground, View } from "react-native";
 import styled from "styled-components/native";
 
 export const AppTotal = styled.View`
