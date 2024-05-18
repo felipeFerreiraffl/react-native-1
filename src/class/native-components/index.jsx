@@ -1,13 +1,15 @@
 import React from "react";
 import * as S from "./styles"
-import *  as A from "../../../assets"
+import bell from "../../../assets/bell.png";
+import gabigol from "../../../assets/gabigol.png"
+import kane from "../../../assets/kane.png"
 
 function CreativeCard(props) {
     return(
         <S.AppView>
             <S.AppTitle>{props.title}</S.AppTitle>
             <S.AppSubTitle>{props.description}</S.AppSubTitle>
-            <S.AppImage>{props.image}</S.AppImage>
+            <S.AppImage source={props.image}/>
         </S.AppView>
     )
 }
@@ -16,9 +18,9 @@ function CreativeCard(props) {
 export const CreativeComponent  = () => {
     return (
         <S.AppTotal>
-            <CreativeCard title="BELLIGOL" image={require(A.bell.png)} description="O ILUMINADO" />
-            <CreativeCard title="GABIGOL" image={require(A.gabigol.png)} description="O PREDESTINADO" />
-            <CreativeCard title="HARRY KANE" image={require(A.kane.png)} description="O SEM TÍTULOS" />
+            <CreativeCard title="BELLIGOL" image={bell} imageAlt="belligol" description="O ILUMINADO" />
+            <CreativeCard title="GABIGOL" image={gabigol} description="O PREDESTINADO" />
+            <CreativeCard title="HARRY KANE" image={kane} description="O SEM TÍTULOS" />
         </S.AppTotal>
     )
 }
