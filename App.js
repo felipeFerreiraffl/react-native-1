@@ -1,8 +1,7 @@
-import { PageContainer, PageTitle, PageImage, PageSubTitle } from "./src/class/class-styles/styles-components";
-import { CreativeComponent } from "./src/class/native-components";
+import Search from "./src/type-weather/pages/search";
 
 export default function App() {
   return(
-    <CreativeComponent />
+    <Search />
   )
 }

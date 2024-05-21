@@ -14,13 +14,13 @@ function CreativeCard(props) {
     )
 }
 
-// FC (function component): 
+// FC (function component)
 export const CreativeComponent  = () => {
     return (
         <S.AppTotal>
             <CreativeCard title="BELLIGOL" image={bell} imageAlt="belligol" description="O ILUMINADO" />
-            <CreativeCard title="GABIGOL" image={gabigol} description="O PREDESTINADO" />
-            <CreativeCard title="HARRY KANE" image={kane} description="O SEM TÍTULOS" />
+            <CreativeCard title="GABIGOL" image={gabigol} imageAlt="gabigol" description="O PREDESTINADO" />
+            <CreativeCard title="HARRY KANE" image={kane} imageAlt="kane" description="O SEM TÍTULOS" />
         </S.AppTotal>
     )
 }
