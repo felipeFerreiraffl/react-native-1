@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./styles"
 import cloud from "../../assets/cloud-icon.svg"
 import night from "../../assets/background-night.png"
+import moon from "../../assets/icon-moon.svg"
 
 export default function Dash() {
     return (
@@ -28,8 +29,16 @@ export default function Dash() {
                             <S.NightWeatherState>Poucas nuvens</S.NightWeatherState>
                         </S.NightWeatherDescription>
                     </S.NightWeatherContainer>
+                    <S.NightWeatherIconContainer>
+                        <S.NightWeatherIcon source={moon}></S.NightWeatherIcon>
+                    </S.NightWeatherIconContainer>
                 </S.NightImage>
             </S.HeaderContainer>
+            <S.DescContainer>
+                <S.DescInfoConteiner>
+                    
+                </S.DescInfoConteiner>
+            </S.DescContainer>
         </S.Container>
     )
 } 

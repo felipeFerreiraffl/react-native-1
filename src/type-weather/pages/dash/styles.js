@@ -20,8 +20,7 @@ export const HeaderContainer = styled.View`
     width: 359px;
     height: 396px;
     border-radius: 12px;
-    padding: 12px;
-    margin-bottom: 408px;
+    margin-top: 8px;
     gap: 12px;
 `;
 
@@ -71,7 +70,7 @@ export const NightTitleContainer = styled.View`
     flex-direction: row;
     width: 295px;
     height: 41px;
-    margin-bottom: 111px;
+    margin-top: 20px;
     gap: 72px;
 `;
 
@@ -105,7 +104,8 @@ export const NightWeatherContainer = styled.View`
     display: flex;
     justify-content: left;
     align-items: left;
-    padding-right: 198px;
+    margin-right: 198px;
+    margin-top: 115px;
     gap: 8px;
 `;
 
@@ -117,8 +117,8 @@ export const NightWeatherDegrees = styled.Text`
 
 export const NightWeatherDescription = styled.View`
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 94px;
 `;
@@ -133,4 +133,39 @@ export const NightWeatherState = styled.Text`
     font-size: 14px;
     font-weight: normal;
     color: #FAFAFA;
+`;
+
+export const NightWeatherIconContainer = styled.View`
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 175px;
+    margin-top: -144px;
+`;
+
+export const NightWeatherIcon = styled.Image`
+    width: 160px;
+    height: 160px;
+`;
+
+export const DescContainer = styled.View`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #16161F;
+    width: 359px;
+    height: 292px;
+    border-radius: 12px;
+    margin-top: 8px;
+`;
+
+export const DescInfoConteiner = styled.View`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 327px;
+    height: 284px;
+    margin-top: 4px;
 `;
